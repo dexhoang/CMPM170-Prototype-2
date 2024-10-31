@@ -97,7 +97,7 @@ public class GravityTest : MonoBehaviour
             if (newGravity != Vector3.zero)
             {
                 Physics.gravity = newGravity * force;
-                rb.isKinematic = false; // Ensure Rigidbody is not kinematic
+                rb.isKinematic = false; // Ensur Rigidbody is not kinematic
             }
 
             yield return new WaitForSeconds(8.0f);  // Wait 8 seconds before changing again
